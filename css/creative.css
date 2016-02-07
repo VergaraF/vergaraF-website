@@ -21,7 +21,7 @@ hr {
 }
 
 hr.light {
-    border-color: #fff;
+    border-color: black;
 }
 
 a {
@@ -51,18 +51,23 @@ p {
     line-height: 1.5;
 }
 
-.bg-primary {
-    background-color: #f05f40;
+.bg-primary, #contact {
+    background-color: #F2EFE8;
 }
 
-.bg-dark {
+.bg-dark{
     color: #fff;
     background-color: #222;
 
 }
 
 .text-faded {
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.8);
+}
+
+.text-faded2{
+    color: rgba(0,0,0,.8);
+    text-align: justify;
 }
 
 section {
@@ -214,6 +219,7 @@ header .header-content .header-content-inner p {
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,0.8);
+
 }
 
 @media(min-width:768px) {
@@ -242,10 +248,15 @@ header .header-content .header-content-inner p {
         max-width: 80%;
         font-size: 20px;
     }
+    .text-faded {
+  
+    }
 }
 
 .section-heading {
     margin-top: 0;
+    color: rgba(0,0,0,.8);
+    font-weight: bolder;
 }
 
 .service-box {
@@ -261,6 +272,11 @@ header .header-content .header-content-inner p {
 
 .service-box p {
     margin-bottom: 0;
+}
+
+#portfolio{
+    background: #3A5795;
+
 }
 
 .portfolio-box {
