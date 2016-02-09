@@ -257,7 +257,7 @@
     </section>
 
 
-    <section class="no-padding">
+    <section id="map-section" class="no-padding">
     
          <aside class="bg-dark" id="googleMaps">
          <div class="container text-center">
@@ -268,8 +268,10 @@
         </div>
     
         </aside>
-        <aside id="map"></aside>
 
+        <div id="map">
+
+        </div>
 
     </section>
 
@@ -337,8 +339,8 @@
         function initMap() {
             var mapDiv = document.getElementById('map');
             var map = new google.maps.Map(mapDiv,{
-                center: {lat: 44.540, lng: -78.546},
-                zoom: 8
+                center: {lat: 45.497128, lng: -73.5788906},
+                zoom: 12
             });
         }
     </script>
