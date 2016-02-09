@@ -268,10 +268,8 @@
         </div>
     
         </aside>
+        <aside id="map"></aside>
 
-        <div class="container">
-
-        </div>
 
     </section>
 
@@ -289,7 +287,7 @@
                     <p>The fastest way to get a response from me is to send me an email. I will try my best to respond to your email in less than 24 hours. However, if email is not your thing, you can also try to reach me through social media.</p>
                 </div>
                 <div class="col-lg-3 text-center">
-                    <a href="">
+                    <a class="icon-link" href="https://ca.linkedin.com/in/fabianvergara">
                         <i class="fa fa-linkedin-square fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     </a>
                     
@@ -310,10 +308,12 @@
                 </div>
 
                 <div class="col-lg-3 text-center">
-                    <a class="icon-link" href="">
+                    <a class="icon-link" href="cv/Fabian_Vergara_resume_2016.pdf">
                         <i class="fa fa-exclamation-circle fa-3x wow bounceIn" data-wow-delay=".1s"></i>
                     </a>
                 </div>
+
+
             </div>
         </div>
     </section>
@@ -331,6 +331,20 @@
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js"></script>
+
+    <!--Google Maps -->
+    <script>
+        function initMap() {
+            var mapDiv = document.getElementById('map');
+            var map = new google.maps.Map(mapDiv,{
+                center: {lat: 44.540, lng: -78.546},
+                zoom: 8
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"
+        async defer>
+    </script>
 
 </body>
 
