@@ -208,6 +208,7 @@ header {
 header .smsme, section .smsme {
   background-color: #e91e63;
   width: 50%;
+  color: #F2EFE8;
 }
 
 header .header-content {
@@ -292,6 +293,11 @@ header .header-content .header-content-inner p {
 .repo{
   padding-top: 100px;
   padding-bottom: 50px;
+}
+
+.github-repo, .devpost{
+  font-size: 19px;
+  text-decoration: underline;
 }
 
 @media(min-width:992px) {
