@@ -15,8 +15,6 @@ body{
 #map{
     width: 100%;
     height: 430px;
-
-
 }
 
 
@@ -203,6 +201,15 @@ header {
     -o-background-size: cover;
 }
 
+#smsme-banner{
+  background-image: url(../img/smsme-header.jpg);
+}
+
+header .smsme, section .smsme {
+  background-color: #e91e63;
+  width: 50%;
+}
+
 header .header-content {
     position: relative;
     width: 100%;
@@ -261,7 +268,7 @@ header .header-content .header-content-inner p {
         font-size: 20px;
     }
     .text-faded {
-  
+
     }
 }
 
@@ -304,6 +311,9 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
+.tech-box{
+  padding: 20px !important;
+}
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -513,4 +523,3 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
-
