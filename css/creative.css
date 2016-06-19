@@ -210,6 +210,10 @@ header {
   background-image: url(../img/touber-header.jpg);
 }
 
+#rumbo-banner{
+  background-image: url(../img/rumbo-header.jpg);
+}
+
 header .smsme, section .smsme {
   background-color: #e91e63;
   width: 100%;
