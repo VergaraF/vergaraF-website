@@ -205,6 +205,10 @@ header {
   background-image: url(../img/smsme-header.jpg);
 }
 
+#snap-banner{
+  background-image: url(../img/snap-header.jpg);
+}
+
 header .smsme, section .smsme {
   background-color: #e91e63;
   width: 50%;
