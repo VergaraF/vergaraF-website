@@ -289,6 +289,11 @@ header .header-content .header-content-inner p {
     max-width: 400px;
 }
 
+.repo{
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
@@ -312,7 +317,14 @@ header .header-content .header-content-inner p {
 }
 
 .tech-box{
-  padding: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 10px !important;
+  width: 300px !important;
+  height: 140px !important;
+}
+
+.tech-container{
+  padding-left: 80px;
 }
 .portfolio-box .portfolio-box-caption {
     display: block;
