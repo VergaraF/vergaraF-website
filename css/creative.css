@@ -214,6 +214,9 @@ header {
   background-image: url(../img/rumbo-header.jpg);
 }
 
+#mafia-banner{
+  background-image: url(../img/mafia-header.jpg);
+}
 header .smsme, section .smsme {
   background-color: #e91e63;
   width: 100%;
