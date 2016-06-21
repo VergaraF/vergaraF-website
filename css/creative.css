@@ -217,6 +217,23 @@ header {
 #mafia-banner{
   background-image: url(../img/header/mafia-header.jpg);
 }
+
+body .recommendation{
+  border:1px solid #021a40;
+
+}
+
+#recommendation_div{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+#person_recommmendation{
+  font-size: 15px;
+  color: black;
+  font-style: italic;
+}
+
 header .smsme, section .smsme {
   background-color: #e91e63;
   width: 100%;
@@ -300,7 +317,7 @@ header .header-content .header-content-inner p {
 
 .repo{
   padding-top: 100px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .github-repo, .devpost{
