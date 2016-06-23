@@ -223,6 +223,10 @@ body .recommendation img{
   border:1px solid #021a40;
 }
 
+#about{
+  padding-bottom: 40px;
+}
+
 #recommendation_div{
   padding-top: 10px;
   padding-bottom: 30px;
@@ -317,8 +321,8 @@ header .header-content .header-content-inner p {
 }
 
 .repo{
-  padding-top: 100px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .repo-btn{
