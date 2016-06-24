@@ -89,6 +89,9 @@ aside {
     padding: 0;
 }
 
+.no-padding-top{
+  padding-top: 0;
+}
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -323,6 +326,7 @@ header .header-content .header-content-inner p {
 .repo{
   padding-top: 60px;
   padding-bottom: 60px;
+
 }
 
 .repo-btn{
