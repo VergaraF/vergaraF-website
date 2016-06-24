@@ -333,11 +333,6 @@ header .header-content .header-content-inner p {
   margin-top: 20px;
 }
 
-.github-repo, .devpost{
-  font-size: 19px;
-  text-decoration: underline;
-}
-
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
