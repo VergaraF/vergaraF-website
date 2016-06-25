@@ -356,7 +356,8 @@ header .header-content .header-content-inner p {
 }
 
 .tech-box{
-  padding: 20px;
+  padding-top: 30px;
+  padding-left: 30px;
   width: 270px;
   height: 150px;
 }
