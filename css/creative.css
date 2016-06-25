@@ -222,6 +222,10 @@ header {
   background-image: url(../img/header/mafia-header.jpg);
 }
 
+#estate-banner{
+  background-image: url(../img/header/estate-header.jpg);
+}
+
 #banner-btn{
   width: 70%;
 }
@@ -248,6 +252,12 @@ body .recommendation img{
 header .smsme, section .smsme {
   background-color: #e91e63;
   width: 100%;
+  color: #F2EFE8;
+  text-decoration: none;
+}
+
+header .no-smsme{
+  background-color: #292929;
   color: #F2EFE8;
   text-decoration: none;
 }
