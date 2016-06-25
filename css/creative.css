@@ -222,6 +222,9 @@ header {
   background-image: url(../img/header/mafia-header.jpg);
 }
 
+#banner-btn{
+  width: 70%;
+}
 body .recommendation img{
   border:1px solid #021a40;
 }
@@ -345,7 +348,6 @@ header .header-content .header-content-inner p {
 
 #portfolio{
     background: #3A5795;
-
 }
 
 .portfolio-box {
