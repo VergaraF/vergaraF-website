@@ -226,6 +226,10 @@ header {
   background-image: url(../img/header/estate-header.jpg);
 }
 
+#picit-banner{
+  background-image: url(../img/header/picit-header.jpg);
+}
+
 #banner-btn{
   width: 70%;
 }
