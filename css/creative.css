@@ -230,6 +230,10 @@ header {
   background-image: url(../img/header/picit-header.jpg);
 }
 
+#pic{
+  color: grey;
+}
+
 #banner-btn{
   width: 70%;
 }
